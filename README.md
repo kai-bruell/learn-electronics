@@ -4,7 +4,7 @@ Selbstgesteuerter Lernpfad durch die Elektronik.
 
 Jede Phase baut auf der vorherigen auf. Die Richtung wird nach jedem Abschluss neu entschieden.
 
-→ [ROADMAP.md](ROADMAP.md) · [PROJEKTE.md](PROJEKTE.md)
+→ [PROJEKTE.md](PROJEKTE.md)
 
 ---
 
@@ -21,9 +21,11 @@ Der Fortschritt wird live aus diesem Repo ausgelesen und in meinem [Portfolio](h
 
 ## Lagersystem
 
-Alle Bauteile werden in einer SQLite-Datenbank verwaltet (`parts-inventory/lager.db`). Zugriff ueber:
+Alle Bauteile werden in einer SQLite-Datenbank verwaltet (`parts-inventory/lager.db`). Zugriff über:
 
 - **Web-UI** — `uvicorn api:app --reload` in `parts-inventory/`, dann `http://localhost:8000`
-- **MCP-Server** — fuer Claude Code und andere LLM-Clients
+- **MCP-Server** — für Claude Code und andere LLM-Clients
 
-Details und Setup: [parts-inventory/README.md](parts-inventory/README.md)
+### MCP-Server
+
+Der MCP-Server wird für Claude Code automatisch über `.mcp.json` konfiguriert. Für andere Clients und weitere Details siehe [parts-inventory/README.md](parts-inventory/README.md).

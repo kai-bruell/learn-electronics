@@ -1,0 +1,4 @@
+[submodule "parts-inventory"]
+	path = parts-inventory
+	url = https://github.com/kai-bruell/parts-inventory.git
+	branch = trunk

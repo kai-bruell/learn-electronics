@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "elektronik-lager": {
+      "type": "stdio",
+      "command": "./parts-inventory/venv/bin/python",
+      "args": [
+        "./parts-inventory/mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}
