@@ -10,12 +10,9 @@ Jede Phase baut auf der vorherigen auf. Die Richtung wird nach jedem Abschluss n
 
 ## Konvention
 
-```
-01-ohmsches-gesetz/       ← Ordner existiert  →  abgeschlossen
-WORKING_03-kirchhoff/     ← WORKING_-Präfix   →  aktuell in Arbeit
-```
+Phasen und Kapitel werden in [`.portfolio`](.portfolio) definiert (JSON). Status pro Kapitel: `done`, `wip`, oder kein Status (geplant).
 
-Der Fortschritt wird live aus diesem Repo ausgelesen und in meinem [Portfolio](https://bruell.tech) angezeigt.
+Der Fortschritt wird live aus dieser Datei gelesen und in meinem [Portfolio](https://bruell.tech) angezeigt.
 
 ---
 

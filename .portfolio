@@ -1,0 +1,18 @@
+{
+  "phases": [
+    {
+      "name": "Elektrotechnik-Grundlagen",
+      "chapters": [
+        { "id": "P01", "name": "Ohmsches Gesetz", "status": "done" },
+        { "id": "P02", "name": "Breadboard & Multimeter", "status": "done" },
+        { "id": "P03", "name": "Kirchhoffsche Gesetze", "status": "done" }
+      ]
+    },
+    {
+      "name": "Arduino-Grundlagen",
+      "chapters": [
+        { "id": "P04", "name": "Arduino IDE & Blink" }
+      ]
+    }
+  ]
+}
