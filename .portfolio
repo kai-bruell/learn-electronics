@@ -11,7 +11,7 @@
     {
       "name": "Arduino-Grundlagen",
       "chapters": [
-        { "id": "P04", "name": "Arduino IDE & Blink" }
+        { "id": "P04", "name": "Arduino Serial Port & UART (ATmega16U)", "status": "wip" }
       ]
     }
   ]
