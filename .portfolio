@@ -19,8 +19,8 @@
       "chapters": [
         { "id": "P05a", "name": "LEGO Prototyp & Breadboard-Verkabelung", "status": "done" },
         { "id": "P05b", "name": "PCB-Design in KiCAD", "status": "wip" },
-        { "id": "P05c", "name": "3D-Druck Case für Elektronik" },
-        { "id": "P05d", "name": "Finaler Zusammenbau: Prototyp zu Produkt" }
+        { "id": "P05c", "name": "3D-Druck Case für Elektronik", "status": "planned" },
+        { "id": "P05d", "name": "Finaler Zusammenbau: Prototyp zu Produkt", "status": "planned" }
       ]
     }
   ]
